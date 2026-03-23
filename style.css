@@ -1,0 +1,85 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color:#f9f9f9;
+        }
+        .cabecalho {
+            background: #2c3e50;
+            color: white;
+            padding: 32px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+        .container {
+            max-width: 800px;
+            margin: 32px auto;
+            padding: 0 16px; /* menor no mobile */
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        h1 {
+            margin-bottom: 16px;
+        }
+        section {
+            margin-bottom: 32px;
+        }
+        section h2 {
+            color: #27ae60;;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            margin-top: 32px;
+            box-shadow: #2c3e50 0px 20px 70px;
+        }
+        .video-aulas {
+            background: #0a2329;
+            padding: 16px;
+            margin-left: 32px;
+            border-radius: 8px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+            @media (max-width: 600px) {
+                .cabecalho {
+                    padding: 16px;
+                }
+                .container {
+                    padding: 0 8px;
+                }
+                .video-aulas {
+                    margin-left: 0;
+                    margin-top: 16px;
+                }
+            }
+        section {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 16px 20px rgba(0,0,0,0.2);
+}
+    
