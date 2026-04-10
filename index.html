@@ -3,49 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConectStud</title>
+    <title>Projeto Sustetec | Página Inicial</title>
     <link rel="stylesheet" href="style.css">
     <script src="anime.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
-        <h1>ConectStud, onde você se encontra!</h1>
-        <p>Aqui você encontra o melhor conteúdo para estudar e compartilhar!</p>
+        <nav class="menu">
+            <a href="#historia">Nossa História</a>
+            <a href="#quem-somos">Quem Somos</a>    
+            <a href="#valores">Nossos Valores</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <h1>Projeto Sustetec, Sustentabilidade e Tecnologia para um futuro melhor</h1>
+        <p>Aqui você encontra o melhor conteúdo para estudar, aprender e compartilhar conhecimento sobre sustentabilidade e tecnologia, tudo de forma gratuita e acessível para todos.</p>
     
+        <a href="#contato" class="botao">Entre em Contato</a></br>
+
         <div class="video-aulas">
-            <h2>Vídeo Aulas, Cursos, e para você postar suas atividades</h2>
-            <p>Assista às nossas vídeo-aulas exclusivas, criadas por profissionais da área, para aprimorar seus conhecimentos e se preparar para o futuro.</p>
+            <a href="https://www.youtube.com/@sustetec" target="_blank"></a>
+                <h2>Vídeo Aulas, Cursos, e para você postar suas atividades</h2>
+                <p>Assista às nossas vídeo-aulas exclusivas, criadas por profissionais da área, para aprimorar seus conhecimentos e se preparar para o futuro.</p>
         </div>
     </header>
-
     <div class="container">
-        <section id="historia">
+        <section id="historia" class="hidden">
             <h2 onclick="scrollToSection('historia')">Nossa História</h2>
             <p>Fundado no início de 2026, como um projeto de faculdade, nosso site nasceu com o objetivo de ajudar estudantes do ensino médio, e fundamental II para estudar e compartilhar os seus conhecimentos, podendo postar atividades ao público, e assistir vídeo-aulas oferecidos por profissionais da Àrea.</p>
         </section>
 
-        <section id="quem-somos">
+        <section id="quem-somos" class="hidden">
             <h2 onclick="scrollToSection('quem-somos')">Quem Somos</h2>
             <p>Somos uma equipe dedicada de profissionais apaixonados por ajudar e compartilhar inteligência. Nossa missão é ajudar os estudantes a fazer, e proporcionar a melhor experiência possível a esses em si.</p>
         </section>
 
-        <section id="valores">
+        <section id="valores" class="hidden">
             <h2 onclick="scrollToSection('valores')">Nossos Valores</h2>
             <ul>
-                <li>Excelência</li>
-                
-                <li>Sustentabilidade e Tecnologia</li>
-                    <p> Nosso projeto busca promover o uso da tecnologia de forma consciente, incentivando através de conteúdos digitais e contribuindo para uma educação mais acessível e sustentável.</p><br>
-                <li>Transparência</li>
-                
+                <li>Excelência
+                    <p>Buscamos oferecer suporte de qualidade a todos para as pessoas que querem e buscam um mundo melhor e sustentáve</p><br>
+                </li>
+                <li>Sustentabilidade e Tecnologia
+                    <p> Nosso projeto busca promover o uso da tecnologia de forma consciente, incentivando a redução do uso de papel através de conteúdos digitais e contribuindo para uma educação mais acessível e sustentável.</p><br>
+                </li>
+                <li>Transparência
+                    <p>Valorizamos a transparência em todas as nossas ações, mantendo uma comunicação aberta, honesta e em tempo real, com quem busca uma planeta melhor e sustentável</p><br>
+                </li>
                 <li>Impacto na Comunidade
                     <p>Nosso objetivo é levar conhecimento gratuito para comunidades com pouco acesso à educação de qualidade, utilizando a tecnologia como ferramenta de inclusão social.</p>
                 </li>
             </ul>
         </section>
-        <section>
+
+        <section id="contato">
             <h2>Entre em Contato</h2>
-            <p>Gostaria de conhecer mais? <a href="mailto:contato@seusite.com">Envie-nos um email</a></p>
+            <p>Gostaria de conhecer mais? <a href="mailto:mendes08.paixao@gmail.com">Envie-nos um email</a></p>
         </section>
         
         
